@@ -1,0 +1,50 @@
+using System;
+
+namespace Contact_list
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            ApplicationStart();
+
+        }
+
+        private static void ApplicationStart()
+        {
+
+            Console.WriteLine($"1.Elave etmek");
+            Console.WriteLine("2.Yoxlamaq");
+            Console.WriteLine("3.Silmek");
+            string choice = Console.ReadLine();
+            if (choice == "1")
+            {
+                AddContact();
+            }
+            else if (choice == "2")
+            {
+                CheckContact();
+            }
+            else if (choice == "3")
+            {
+                DeleteContact();
+            }
+
+        }
+
+        private static void DeleteContact()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static void CheckContact()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static void AddContact()
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
